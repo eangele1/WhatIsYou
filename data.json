@@ -4,6 +4,7 @@
   "quizzes": [
     {
     	"id": "1",
+        "availability": true,
     	"title": "Which chirstmas movie is perfect for you?",
     	"question_count": "7",
     	"questions_points": [
