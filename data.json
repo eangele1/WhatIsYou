@@ -8,6 +8,9 @@
     { "id": "4", "title": "Find the perfect basketball shoes.", "releaseYear": "2010" },
     { "id": "5", "title": "Which Avenger are you?", "releaseYear": "2014" },
     { "id": "6", "title": "Which ASMR sound suits you?", "releaseYear": "2014" },
-    { "id": "7", "title": "Which pool gadget you must have?", "releaseYear": "2014" }
+    { "id": "7", "title": "Which pool gadget you must have?", "releaseYear": "2014" },
+    { "id": "8", "title": "Which emoji are you?", "releaseYear": "2014" },
+    { "id": "9", "title": "Which weather are you?", "releaseYear": "2014" },
+    { "id": "10", "title": "What dream house suits you best?", "releaseYear": "2014" },
   ]
 }
