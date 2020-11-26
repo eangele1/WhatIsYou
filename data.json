@@ -2,22 +2,22 @@
   "api_title": "What Is You? JSON Data File",
   "description": "My app fetched this from a remote endpoint!",
   "quizzes": [
-    { "id": 1, "availability": true, "title": "Which chirstmas movie is perfect for you?" },
-    { "id": 2, "title": "Which Star Wars character are you?", "releaseYear": "1985" },
-    { "id": 3, "title": "Which horror character are you?", "releaseYear": "1999" },
-    { "id": 4, "title": "Find the perfect basketball shoes.", "releaseYear": "2010" },
-    { "id": 5, "title": "Which Avenger are you?", "releaseYear": "2014" },
-    { "id": 6, "title": "Which ASMR sound suits you?", "releaseYear": "2014" },
-    { "id": 7, "title": "Which pool gadget you must have?", "releaseYear": "2014" },
-    { "id": 8, "title": "Which emoji are you?", "releaseYear": "2014" },
-    { "id": 9, "title": "Which weather are you?", "releaseYear": "2014" },
-    { "id": 10, "title": "What dream house suits you best?", "releaseYear": "2014" },
-    { "id": 11, "title": "Which nickname is best for you or your pet?", "releaseYear": "2014" },
-    { "id": 12, "title": "How healthy is your lifestyle?", "releaseYear": "2014" }
+    { "id": "1", "availability": true, "title": "Which chirstmas movie is perfect for you?" },
+    { "id": "2", "title": "Which Star Wars character are you?", "releaseYear": "1985" },
+    { "id": "3", "title": "Which horror character are you?", "releaseYear": "1999" },
+    { "id": "4", "title": "Find the perfect basketball shoes.", "releaseYear": "2010" },
+    { "id": "5", "title": "Which Avenger are you?", "releaseYear": "2014" },
+    { "id": "6", "title": "Which ASMR sound suits you?", "releaseYear": "2014" },
+    { "id": "7", "title": "Which pool gadget you must have?", "releaseYear": "2014" },
+    { "id": "8", "title": "Which emoji are you?", "releaseYear": "2014" },
+    { "id": "9", "title": "Which weather are you?", "releaseYear": "2014" },
+    { "id": "10", "title": "What dream house suits you best?", "releaseYear": "2014" },
+    { "id": "11", "title": "Which nickname is best for you or your pet?", "releaseYear": "2014" },
+    { "id": "12", "title": "How healthy is your lifestyle?", "releaseYear": "2014" }
   ],
   "question_data": [
     {
-        "id": 1,
+        "id": "1",
         "question_count": 7,
         "questions_points": [
             {
