@@ -3,7 +3,7 @@
   "description": "My app fetched this from a remote endpoint!",
   "quizzes": [
     { "id": "1", "availability": true, "title": "Which chirstmas movie is perfect for you?" },
-    { "id": "2", "title": "Which Star Wars character are you?", "releaseYear": "1985" },
+    { "id": "2", "availability": true, "title": "Which Star Wars character are you?" },
     { "id": "3", "title": "Which horror character are you?", "releaseYear": "1999" },
     { "id": "4", "title": "Find the perfect basketball shoes.", "releaseYear": "2010" },
     { "id": "5", "title": "Which Avenger are you?", "releaseYear": "2014" },
@@ -145,6 +145,138 @@
                 "lower_bound": 270, 
                 "upper_bound": 280,
                 "message": "It's a Wonderful Life"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "question_count": 7,
+        "questions_points": [
+            {
+                "question_number": 1,
+                "question": "If you could time travel, where would you go?", 
+                    "A": "To the age of Republic",
+                    "A_points": 10, 
+                    "B": "To the age of Rebellion",
+                    "B_points": 40,  
+                    "C": "To the age of Resistance",
+                    "C_points": 20,  
+                    "D": "In a galaxy far, far away",
+                    "D_points": 30 
+            },
+            {
+                "question_number": 2,
+                "question": "Which superpowers would you choose?", 
+                    "A": "Force Push",
+                    "A_points": 30, 
+                    "B": "Force Lightning",
+                    "B_points": 40,  
+                    "C": "Telekinesis",
+                    "C_points": 20,  
+                    "D": "Telepathy",
+                    "D_points": 10 
+            },
+            {
+                "question_number": 3,
+                "question": "What was your favorite subject in school?", 
+                    "A": "Math",
+                    "A_points": 20, 
+                    "B": "Biology",
+                    "B_points": 30,  
+                    "C": "Physics",
+                    "C_points": 40,  
+                    "D": "Philosophy",
+                    "D_points": 10 
+            },
+            {
+                "question_number": 4,
+                "question": "What color would your lightsaber be?", 
+                    "A": "Red",
+                    "A_points": 20, 
+                    "B": "Blue",
+                    "B_points": 30,  
+                    "C": "Green",
+                    "C_points": 40,  
+                    "D": "White",
+                    "D_points": 10 
+            },
+            {
+                "question_number": 5,
+                "question": "What is your favorite accessory?", 
+                    "A": "Combat Boots",
+                    "A_points": 40, 
+                    "B": "A Crown",
+                    "B_points": 30,  
+                    "C": "A Cowl",
+                    "C_points": 20,  
+                    "D": "A Walking Stick",
+                    "D_points": 10 
+            },
+            {
+                "question_number": 6,
+                "question": "Who is your favorite droid?", 
+                    "A": "C-3PO",
+                    "A_points": 10, 
+                    "B": "R2-D2",
+                    "B_points": 30,  
+                    "C": "BB-8",
+                    "C_points": 20,  
+                    "D": "K-2SO",
+                    "D_points": 40 
+            },
+            {
+                "question_number": 7,
+                "question": "What is your favorite Star Wars quote?", 
+                    "A": "\"Do, or Do Not.\"",
+                    "A_points": 10, 
+                    "B": "\"Unlimited Power!\"",
+                    "B_points": 20,  
+                    "C": "\"Hope.\"",
+                    "C_points": 30,  
+                    "D": "\"The Force will be with you.\"",
+                    "D_points": 40 
+            }
+        ],
+        "results": [
+            {
+                "lower_bound": 70, 
+                "upper_bound": 80,
+                "message": "Chewbacca"
+            },
+            {
+                "lower_bound": 90, 
+                "upper_bound": 110,
+                "message": "Luke Skywalker"
+            },
+            {
+                "lower_bound": 120, 
+                "upper_bound": 140,
+                "message": "Yoda"
+            },
+            {
+                "lower_bound": 150, 
+                "upper_bound": 170,
+                "message": "Darth Vader"
+            },
+            {
+                "lower_bound": 180, 
+                "upper_bound": 210,
+                "message": "Princess Leia"
+            },
+            {
+                "lower_bound": 220, 
+                "upper_bound": 240,
+                "message": "Obi-Wan Kenobi"
+            },
+            {
+                "lower_bound": 250, 
+                "upper_bound": 260,
+                "message": "R2-D2"
+            },
+            {
+                "lower_bound": 270, 
+                "upper_bound": 280,
+                "message": "Jabba The Hutt"
             }
         ]
     }
