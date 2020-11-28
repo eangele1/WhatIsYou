@@ -67,6 +67,7 @@
     {
       "id": "1",
       "question_count": 7,
+      "choice_count": 4,
       "questions_points": [
         {
           "question_number": 1,
@@ -199,6 +200,7 @@
     {
       "id": "2",
       "question_count": 7,
+      "choice_count": 4,
       "questions_points": [
         {
           "question_number": 1,
@@ -331,6 +333,7 @@
     {
       "id": "3",
       "question_count": 7,
+      "choice_count": 4,
       "questions_points": [
         {
           "question_number": 1,
@@ -453,6 +456,7 @@
     {
       "id": "4",
       "question_count": 7,
+      "choice_count": 4,
       "questions_points": [
         {
           "question_number": 1,
@@ -585,6 +589,7 @@
     {
       "id": "5",
       "question_count": 7,
+      "choice_count": 4,
       "questions_points": [
         {
           "question_number": 1,
