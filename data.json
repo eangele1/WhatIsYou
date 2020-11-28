@@ -29,8 +29,8 @@
     },
     {
       "id": "6",
-      "title": "Which ASMR sound suits you?",
-      "releaseYear": "2014"
+      "availability": true,
+      "title": "Which horror character are you?"
     },
     {
       "id": "7",
@@ -716,6 +716,149 @@
           "lower_bound": 270,
           "upper_bound": 280,
           "message": "Nick Fury"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question_count": 7,
+      "choice_count": 5,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "What kind of horror movies do you like best?",
+          "A": "Killer Monsters",
+          "A_points": 50,
+          "B": "Paranormal",
+          "B_points": 20,
+          "C": "Zombie",
+          "C_points": 30,
+          "D": "Possession",
+          "D_points": 10,
+          "E": "Ghost",
+          "E_points": 40
+        },
+        {
+          "question_number": 2,
+          "question": "What weapon would you use to kill someone?",
+          "A": "Knife",
+          "A_points": 40,
+          "B": "Chainsaw",
+          "B_points": 50,
+          "C": "Gun",
+          "C_points": 10,
+          "D": "Hammer",
+          "D_points": 20,
+          "E": "Axe",
+          "E_points": 30
+        },
+        {
+          "question_number": 3,
+          "question": "Which of these scares you the most?",
+          "A": "Small Spaces",
+          "A_points": 40,
+          "B": "Failure",
+          "B_points": 20,
+          "C": "The Dark",
+          "C_points": 30,
+          "D": "Death",
+          "D_points": 50,
+          "E": "Heights",
+          "E_points": 10
+        },
+        {
+          "question_number": 4,
+          "question": "Which of these dolls is the creepiest?",
+          "A": "Doll with no right eye and bloody socket + stitches",
+          "A_points": 20,
+          "B": "Doll with bloody eyes",
+          "B_points": 30,
+          "C": "Doll with no left eye",
+          "C_points": 40,
+          "D": "Doll with severed right eye",
+          "D_points": 50,
+          "E": "Doll with stitches and bloody mouth",
+          "E_points": 10
+        },
+        {
+          "question_number": 5,
+          "question": "Who is your favorite serial killer?",
+          "A": "Human Dracula",
+          "A_points": 40,
+          "B": "Zodiac Killer",
+          "B_points": 30,
+          "C": "Jack the Ripper",
+          "C_points": 50,
+          "D": "The Beast",
+          "D_points": 10,
+          "E": "Crazy Necrophile",
+          "E_points": 20
+        },
+        {
+          "question_number": 6,
+          "question": "Which word appeals to you the most?",
+          "A": "Heart",
+          "A_points": 50,
+          "B": "Insane",
+          "B_points": 30,
+          "C": "Analyze",
+          "C_points": 20,
+          "D": "Anger",
+          "D_points": 10,
+          "E": "Debate",
+          "E_points": 40
+        },
+        {
+          "question_number": 7,
+          "question": "Which of these characters are you most afraid of?",
+          "A": "Myers",
+          "A_points": 50,
+          "B": "Jason",
+          "B_points": 40,
+          "C": "Frankenstein",
+          "C_points": 10,
+          "D": "Hanibal",
+          "D_points": 20,
+          "E": "Freddy",
+          "E_points": 30
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 100,
+          "message": "Valac",
+          "sub_message": "from the movie: The Nun"
+        },
+        {
+          "lower_bound": 110,
+          "upper_bound": 150,
+          "message": "Samara",
+          "sub_message": "from the movie: The Ring"
+        },
+        {
+          "lower_bound": 160,
+          "upper_bound": 200,
+          "message": "Jigsaw",
+          "sub_message": "from the movie: Saw"
+        },
+        {
+          "lower_bound": 210,
+          "upper_bound": 250,
+          "message": "Chucky",
+          "sub_message": "from the movie: Chucky"
+        },
+        {
+          "lower_bound": 260,
+          "upper_bound": 300,
+          "message": "Annabelle",
+          "sub_message": "from the movie: Annabelle"
+        },
+        {
+          "lower_bound": 310,
+          "upper_bound": 350,
+          "message": "Pennywise",
+          "sub_message": "from the movie: It"
         }
       ]
     }
