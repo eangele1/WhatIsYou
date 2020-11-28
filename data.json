@@ -2,283 +2,453 @@
   "api_title": "What Is You? JSON Data File",
   "description": "My app fetched this from a remote endpoint!",
   "quizzes": [
-    { "id": "1", "availability": true, "title": "Which chirstmas movie is perfect for you?" },
-    { "id": "2", "availability": true, "title": "Which Star Wars character are you?" },
-    { "id": "3", "title": "Which horror character are you?", "releaseYear": "1999" },
-    { "id": "4", "title": "Find the perfect basketball shoes.", "releaseYear": "2010" },
-    { "id": "5", "title": "Which Avenger are you?", "releaseYear": "2014" },
-    { "id": "6", "title": "Which ASMR sound suits you?", "releaseYear": "2014" },
-    { "id": "7", "title": "Which pool gadget you must have?", "releaseYear": "2014" },
-    { "id": "8", "title": "Which emoji are you?", "releaseYear": "2014" },
-    { "id": "9", "title": "Which weather are you?", "releaseYear": "2014" },
-    { "id": "10", "title": "What dream house suits you best?", "releaseYear": "2014" },
-    { "id": "11", "title": "Which nickname is best for you or your pet?", "releaseYear": "2014" },
-    { "id": "12", "title": "How healthy is your lifestyle?", "releaseYear": "2014" }
+    {
+      "id": "1",
+      "availability": true,
+      "title": "Which chirstmas movie is perfect for you?"
+    },
+    {
+      "id": "2",
+      "availability": true,
+      "title": "Which Star Wars character are you?"
+    },
+    {
+      "id": "3",
+      "availability": true,
+      "title": "Which farm animal are you?"
+    },
+    {
+      "id": "4",
+      "title": "Find the perfect basketball shoes.",
+      "releaseYear": "2010"
+    },
+    {
+      "id": "5",
+      "title": "Which Avenger are you?",
+      "releaseYear": "2014"
+    },
+    {
+      "id": "6",
+      "title": "Which ASMR sound suits you?",
+      "releaseYear": "2014"
+    },
+    {
+      "id": "7",
+      "title": "Which pool gadget you must have?",
+      "releaseYear": "2014"
+    },
+    {
+      "id": "8",
+      "title": "Which emoji are you?",
+      "releaseYear": "2014"
+    },
+    {
+      "id": "9",
+      "title": "Which weather are you?",
+      "releaseYear": "2014"
+    },
+    {
+      "id": "10",
+      "title": "What dream house suits you best?",
+      "releaseYear": "2014"
+    },
+    {
+      "id": "11",
+      "title": "Which nickname is best for you or your pet?",
+      "releaseYear": "2014"
+    },
+    {
+      "id": "12",
+      "title": "How healthy is your lifestyle?",
+      "releaseYear": "2014"
+    }
   ],
   "question_data": [
     {
-        "id": "1",
-        "question_count": 7,
-        "questions_points": [
-            {
-                "question_number": 1,
-                "question": "How much do you love Christmas?", 
-                    "A": "I love it!",
-                    "A_points": 10, 
-                    "B": "It's ok... I like presents.",
-                    "B_points": 20,  
-                    "C": "Stressful, but nice.",
-                    "C_points": 30,  
-                    "D": "I hate Christmas.",
-                    "D_points": 40 
-            },
-            {
-                "question_number": 2,
-                "question": "The best thing about Christmas is...", 
-                    "A": "Presents!!!",
-                    "A_points": 30, 
-                    "B": "Time with my family",
-                    "B_points": 20,  
-                    "C": "Partying",
-                    "C_points": 10,  
-                    "D": "Watching Christmas movies",
-                    "D_points": 40 
-            },
-            {
-                "question_number": 3,
-                "question": "The worst thing about Christmas is...", 
-                    "A": "Traffic everywhere!",
-                    "A_points": 30, 
-                    "B": "Time with my family",
-                    "B_points": 40,  
-                    "C": "Buying presents",
-                    "C_points": 10,  
-                    "D": "Hearing \"Last Christmas\" song on the radio",
-                    "D_points": 20 
-            },
-            {
-                "question_number": 4,
-                "question": "What kind of gifts do you give for Christmas?", 
-                    "A": "Gift cards",
-                    "A_points": 20, 
-                    "B": "My company",
-                    "B_points": 40,  
-                    "C": "Fruit for everyone",
-                    "C_points": 30,  
-                    "D": "Something personal",
-                    "D_points": 10 
-            },
-            {
-                "question_number": 5,
-                "question": "When do you take your Christmas decorations down?", 
-                    "A": "The day after Chirstmas",
-                    "A_points": 10, 
-                    "B": "By New Years Day",
-                    "B_points": 40,  
-                    "C": "The first weekend after New Years",
-                    "C_points": 30,  
-                    "D": "Never!",
-                    "D_points": 20 
-            },
-            {
-                "question_number": 6,
-                "question": "How long does it take you to wrap presents?", 
-                    "A": "0.0001 Seconds",
-                    "A_points": 40, 
-                    "B": "Not long, I suppose",
-                    "B_points": 10,  
-                    "C": "Ages!",
-                    "C_points": 20,  
-                    "D": "I call my friends to help",
-                    "D_points": 30 
-            },
-            {
-                "question_number": 7,
-                "question": "What time do you wake up on Christmas morning?", 
-                    "A": "Just after midnight",
-                    "A_points": 10, 
-                    "B": "9AM",
-                    "B_points": 20,  
-                    "C": "I like to have a lie-in",
-                    "C_points": 30,  
-                    "D": "It depends what time I go to sleep",
-                    "D_points": 40 
-            }
-        ],
-        "results": [
-            {
-                "lower_bound": 70, 
-                "upper_bound": 80,
-                "message": "Elf"
-            },
-            {
-                "lower_bound": 90, 
-                "upper_bound": 110,
-                "message": "The Grinch (2018)"
-            },
-            {
-                "lower_bound": 120, 
-                "upper_bound": 140,
-                "message": "Bad Santa"
-            },
-            {
-                "lower_bound": 150, 
-                "upper_bound": 170,
-                "message": "Home Alone"
-            },
-            {
-                "lower_bound": 180, 
-                "upper_bound": 210,
-                "message": "Die Hard"
-            },
-            {
-                "lower_bound": 220, 
-                "upper_bound": 240,
-                "message": "A Charlie Brown Christmas"
-            },
-            {
-                "lower_bound": 250, 
-                "upper_bound": 260,
-                "message": "Scrooged"
-            },
-            {
-                "lower_bound": 270, 
-                "upper_bound": 280,
-                "message": "It's a Wonderful Life"
-            }
-        ]
+      "id": "1",
+      "question_count": 7,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "How much do you love Christmas?",
+          "A": "I love it!",
+          "A_points": 10,
+          "B": "It's ok... I like presents.",
+          "B_points": 20,
+          "C": "Stressful, but nice.",
+          "C_points": 30,
+          "D": "I hate Christmas.",
+          "D_points": 40
+        },
+        {
+          "question_number": 2,
+          "question": "The best thing about Christmas is...",
+          "A": "Presents!!!",
+          "A_points": 30,
+          "B": "Time with my family",
+          "B_points": 20,
+          "C": "Partying",
+          "C_points": 10,
+          "D": "Watching Christmas movies",
+          "D_points": 40
+        },
+        {
+          "question_number": 3,
+          "question": "The worst thing about Christmas is...",
+          "A": "Traffic everywhere!",
+          "A_points": 30,
+          "B": "Time with my family",
+          "B_points": 40,
+          "C": "Buying presents",
+          "C_points": 10,
+          "D": "Hearing \"Last Christmas\" song on the radio",
+          "D_points": 20
+        },
+        {
+          "question_number": 4,
+          "question": "What kind of gifts do you give for Christmas?",
+          "A": "Gift cards",
+          "A_points": 20,
+          "B": "My company",
+          "B_points": 40,
+          "C": "Fruit for everyone",
+          "C_points": 30,
+          "D": "Something personal",
+          "D_points": 10
+        },
+        {
+          "question_number": 5,
+          "question": "When do you take your Christmas decorations down?",
+          "A": "The day after Chirstmas",
+          "A_points": 10,
+          "B": "By New Years Day",
+          "B_points": 40,
+          "C": "The first weekend after New Years",
+          "C_points": 30,
+          "D": "Never!",
+          "D_points": 20
+        },
+        {
+          "question_number": 6,
+          "question": "How long does it take you to wrap presents?",
+          "A": "0.0001 Seconds",
+          "A_points": 40,
+          "B": "Not long, I suppose",
+          "B_points": 10,
+          "C": "Ages!",
+          "C_points": 20,
+          "D": "I call my friends to help",
+          "D_points": 30
+        },
+        {
+          "question_number": 7,
+          "question": "What time do you wake up on Christmas morning?",
+          "A": "Just after midnight",
+          "A_points": 10,
+          "B": "9AM",
+          "B_points": 20,
+          "C": "I like to have a lie-in",
+          "C_points": 30,
+          "D": "It depends what time I go to sleep",
+          "D_points": 40
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "message": "Elf"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 110,
+          "message": "The Grinch (2018)"
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 140,
+          "message": "Bad Santa"
+        },
+        {
+          "lower_bound": 150,
+          "upper_bound": 170,
+          "message": "Home Alone"
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 210,
+          "message": "Die Hard"
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 240,
+          "message": "A Charlie Brown Christmas"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 260,
+          "message": "Scrooged"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 280,
+          "message": "It's a Wonderful Life"
+        }
+      ]
     },
     {
-        "id": "2",
-        "question_count": 7,
-        "questions_points": [
-            {
-                "question_number": 1,
-                "question": "If you could time travel, where would you go?", 
-                    "A": "To the age of Republic",
-                    "A_points": 10, 
-                    "B": "To the age of Rebellion",
-                    "B_points": 40,  
-                    "C": "To the age of Resistance",
-                    "C_points": 20,  
-                    "D": "In a galaxy far, far away",
-                    "D_points": 30 
-            },
-            {
-                "question_number": 2,
-                "question": "Which superpowers would you choose?", 
-                    "A": "Force Push",
-                    "A_points": 30, 
-                    "B": "Force Lightning",
-                    "B_points": 40,  
-                    "C": "Telekinesis",
-                    "C_points": 20,  
-                    "D": "Telepathy",
-                    "D_points": 10 
-            },
-            {
-                "question_number": 3,
-                "question": "What was your favorite subject in school?", 
-                    "A": "Math",
-                    "A_points": 20, 
-                    "B": "Biology",
-                    "B_points": 30,  
-                    "C": "Physics",
-                    "C_points": 40,  
-                    "D": "Philosophy",
-                    "D_points": 10 
-            },
-            {
-                "question_number": 4,
-                "question": "What color would your lightsaber be?", 
-                    "A": "Red",
-                    "A_points": 20, 
-                    "B": "Blue",
-                    "B_points": 30,  
-                    "C": "Green",
-                    "C_points": 40,  
-                    "D": "White",
-                    "D_points": 10 
-            },
-            {
-                "question_number": 5,
-                "question": "What is your favorite accessory?", 
-                    "A": "Combat Boots",
-                    "A_points": 40, 
-                    "B": "A Crown",
-                    "B_points": 30,  
-                    "C": "A Cowl",
-                    "C_points": 20,  
-                    "D": "A Walking Stick",
-                    "D_points": 10 
-            },
-            {
-                "question_number": 6,
-                "question": "Who is your favorite droid?", 
-                    "A": "C-3PO",
-                    "A_points": 10, 
-                    "B": "R2-D2",
-                    "B_points": 30,  
-                    "C": "BB-8",
-                    "C_points": 20,  
-                    "D": "K-2SO",
-                    "D_points": 40 
-            },
-            {
-                "question_number": 7,
-                "question": "What is your favorite Star Wars quote?", 
-                    "A": "\"Do, or Do Not.\"",
-                    "A_points": 10, 
-                    "B": "\"Unlimited Power!\"",
-                    "B_points": 20,  
-                    "C": "\"Hope.\"",
-                    "C_points": 30,  
-                    "D": "\"The Force will be with you.\"",
-                    "D_points": 40 
-            }
-        ],
-        "results": [
-            {
-                "lower_bound": 70, 
-                "upper_bound": 80,
-                "message": "Chewbacca"
-            },
-            {
-                "lower_bound": 90, 
-                "upper_bound": 110,
-                "message": "Luke Skywalker"
-            },
-            {
-                "lower_bound": 120, 
-                "upper_bound": 140,
-                "message": "Yoda"
-            },
-            {
-                "lower_bound": 150, 
-                "upper_bound": 170,
-                "message": "Darth Vader"
-            },
-            {
-                "lower_bound": 180, 
-                "upper_bound": 210,
-                "message": "Princess Leia"
-            },
-            {
-                "lower_bound": 220, 
-                "upper_bound": 240,
-                "message": "Obi-Wan Kenobi"
-            },
-            {
-                "lower_bound": 250, 
-                "upper_bound": 260,
-                "message": "R2-D2"
-            },
-            {
-                "lower_bound": 270, 
-                "upper_bound": 280,
-                "message": "Jabba The Hutt"
-            }
-        ]
+      "id": "2",
+      "question_count": 7,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "If you could time travel, where would you go?",
+          "A": "To the age of Republic",
+          "A_points": 10,
+          "B": "To the age of Rebellion",
+          "B_points": 40,
+          "C": "To the age of Resistance",
+          "C_points": 20,
+          "D": "In a galaxy far, far away",
+          "D_points": 30
+        },
+        {
+          "question_number": 2,
+          "question": "Which superpowers would you choose?",
+          "A": "Force Push",
+          "A_points": 30,
+          "B": "Force Lightning",
+          "B_points": 40,
+          "C": "Telekinesis",
+          "C_points": 20,
+          "D": "Telepathy",
+          "D_points": 10
+        },
+        {
+          "question_number": 3,
+          "question": "What was your favorite subject in school?",
+          "A": "Math",
+          "A_points": 20,
+          "B": "Biology",
+          "B_points": 30,
+          "C": "Physics",
+          "C_points": 40,
+          "D": "Philosophy",
+          "D_points": 10
+        },
+        {
+          "question_number": 4,
+          "question": "What color would your lightsaber be?",
+          "A": "Red",
+          "A_points": 20,
+          "B": "Blue",
+          "B_points": 30,
+          "C": "Green",
+          "C_points": 40,
+          "D": "White",
+          "D_points": 10
+        },
+        {
+          "question_number": 5,
+          "question": "What is your favorite accessory?",
+          "A": "Combat Boots",
+          "A_points": 40,
+          "B": "A Crown",
+          "B_points": 30,
+          "C": "A Cowl",
+          "C_points": 20,
+          "D": "A Walking Stick",
+          "D_points": 10
+        },
+        {
+          "question_number": 6,
+          "question": "Who is your favorite droid?",
+          "A": "C-3PO",
+          "A_points": 10,
+          "B": "R2-D2",
+          "B_points": 30,
+          "C": "BB-8",
+          "C_points": 20,
+          "D": "K-2SO",
+          "D_points": 40
+        },
+        {
+          "question_number": 7,
+          "question": "What is your favorite Star Wars quote?",
+          "A": "\"Do, or Do Not.\"",
+          "A_points": 10,
+          "B": "\"Unlimited Power!\"",
+          "B_points": 20,
+          "C": "\"Hope.\"",
+          "C_points": 30,
+          "D": "\"The Force will be with you.\"",
+          "D_points": 40
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "message": "Chewbacca"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 110,
+          "message": "Luke Skywalker"
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 140,
+          "message": "Yoda"
+        },
+        {
+          "lower_bound": 150,
+          "upper_bound": 170,
+          "message": "Darth Vader"
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 210,
+          "message": "Princess Leia"
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 240,
+          "message": "Obi-Wan Kenobi"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 260,
+          "message": "R2-D2"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 280,
+          "message": "Jabba The Hutt"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question_count": 7,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "What's your favorite part of the day?",
+          "A": "Morning",
+          "A_points": 40,
+          "B": "Evening",
+          "B_points": 10,
+          "C": "Daylight",
+          "C_points": 20,
+          "D": "Dawn",
+          "D_points": 30
+        },
+        {
+          "question_number": 2,
+          "question": "What time of the day do you get up?",
+          "A": "Between 6AM and 8AM",
+          "A_points": 40,
+          "B": "Before 6AM",
+          "B_points": 30,
+          "C": "Between 8AM and 10AM",
+          "C_points": 20,
+          "D": "After 10AM",
+          "D_points": 10
+        },
+        {
+          "question_number": 3,
+          "question": "What can you always find in your pocket?",
+          "A": "Phone",
+          "A_points": 10,
+          "B": "Pocket Knife",
+          "B_points": 40,
+          "C": "Bolts",
+          "C_points": 30,
+          "D": "Money",
+          "D_points": 20
+        },
+        {
+          "question_number": 4,
+          "question": "What is your body shape?",
+          "A": "Overweight",
+          "A_points": 10,
+          "B": "Muscular",
+          "B_points": 30,
+          "C": "Average Size",
+          "C_points": 40,
+          "D": "Tiny",
+          "D_points": 20
+        },
+        {
+          "question_number": 5,
+          "question": "Which food do you prefer?",
+          "A": "Meat",
+          "A_points": 30,
+          "B": "Cornflakes",
+          "B_points": 20,
+          "C": "Bread",
+          "C_points": 10,
+          "D": "Salad",
+          "D_points": 40
+        },
+        {
+          "question_number": 6,
+          "question": "Do you mind being dirty?",
+          "A": "Yes",
+          "A_points": 10,
+          "B": "Depends",
+          "B_points": 40,
+          "C": "Not at all",
+          "C_points": 20,
+          "D": "A little",
+          "D_points": 30
+        },
+        {
+          "question_number": 7,
+          "question": "Which tractor would you like the most?",
+          "A": "Lime Tractor",
+          "A_points": 40,
+          "B": "Dark Green Tractor",
+          "B_points": 10,
+          "C": "Blue Tractor",
+          "C_points": 20,
+          "D": "Red Tractor",
+          "D_points": 30
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 90,
+          "message": "Chicken"
+        },
+        {
+          "lower_bound": 100,
+          "upper_bound": 130,
+          "message": "Sheep"
+        },
+        {
+          "lower_bound": 140,
+          "upper_bound": 170,
+          "message": "Pig"
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 200,
+          "message": "Cow"
+        },
+        {
+          "lower_bound": 210,
+          "upper_bound": 240,
+          "message": "Horse"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 280,
+          "message": "Rabbit"
+        }
+      ]
     }
   ]
 }
