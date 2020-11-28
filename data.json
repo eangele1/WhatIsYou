@@ -19,8 +19,8 @@
     },
     {
       "id": "4",
-      "title": "Find the perfect basketball shoes.",
-      "releaseYear": "2010"
+      "availability": true,
+      "title": "Find the perfect basketball shoes."
     },
     {
       "id": "5",
@@ -447,6 +447,138 @@
           "lower_bound": 250,
           "upper_bound": 280,
           "message": "Rabbit"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question_count": 7,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "What position do you play?",
+          "A": "Point or Shooting Guard",
+          "A_points": 20,
+          "B": "Small Forward",
+          "B_points": 40,
+          "C": "Power Forward",
+          "C_points": 30,
+          "D": "Center",
+          "D_points": 10
+        },
+        {
+          "question_number": 2,
+          "question": "What stats are most important to you?",
+          "A": "Points",
+          "A_points": 30,
+          "B": "Assists",
+          "B_points": 40,
+          "C": "Rebounds",
+          "C_points": 20,
+          "D": "Steals",
+          "D_points": 10
+        },
+        {
+          "question_number": 3,
+          "question": "What do you expect from your new shoes?",
+          "A": "To be comfortable",
+          "A_points": 10,
+          "B": "To protect my ankles",
+          "B_points": 20,
+          "C": "Light Weight",
+          "C_points": 30,
+          "D": "To look awesome",
+          "D_points": 40
+        },
+        {
+          "question_number": 4,
+          "question": "What is the weakest part of your body?",
+          "A": "My ankles",
+          "A_points": 30,
+          "B": "My knees",
+          "B_points": 20,
+          "C": "My hips",
+          "C_points": 10,
+          "D": "My back",
+          "D_points": 40
+        },
+        {
+          "question_number": 5,
+          "question": "What is your greatest strength in play?",
+          "A": "I shoot like Curry",
+          "A_points": 40,
+          "B": "I dunk like Lebron",
+          "B_points": 20,
+          "C": "I jump like Drummond",
+          "C_points": 10,
+          "D": "I pass like Westbrook",
+          "D_points": 30
+        },
+        {
+          "question_number": 6,
+          "question": "Which brand do you prefer?",
+          "A": "Air Jordan",
+          "A_points": 40,
+          "B": "Adidas",
+          "B_points": 10,
+          "C": "Under Armour",
+          "C_points": 20,
+          "D": "Nike",
+          "D_points": 30
+        },
+        {
+          "question_number": 7,
+          "question": "Who is the Goat?",
+          "A": "Chamberlain",
+          "A_points": 10,
+          "B": "Jordan",
+          "B_points": 40,
+          "C": "Kobe",
+          "C_points": 20,
+          "D": "Lebron",
+          "D_points": 30
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "message": "Nike Hyperdunk X"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 110,
+          "message": "Air Jordan 32"
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 140,
+          "message": "Nike Kyrie 4"
+        },
+        {
+          "lower_bound": 150,
+          "upper_bound": 180,
+          "message": "Nike Lebron 16"
+        },
+        {
+          "lower_bound": 190,
+          "upper_bound": 210,
+          "message": "Adidas Harden Vol. 3"
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 240,
+          "message": "Adidas Dame 4"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 260,
+          "message": "Nike PG 2"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 280,
+          "message": "Nike Kobe AD Exodus"
         }
       ]
     }
