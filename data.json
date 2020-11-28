@@ -613,13 +613,13 @@
         {
           "question_number": 3,
           "question": "What is your greatest strength?",
-          "A": "I\\'m Smart",
+          "A": "I'm Smart",
           "A_points": 10,
-          "B": "I\\'m Strong",
+          "B": "I'm Strong",
           "B_points": 20,
-          "C": "I\\'m Fast",
+          "C": "I'm Fast",
           "C_points": 40,
-          "D": "I\\'m Rich",
+          "D": "I'm Rich",
           "D_points": 30
         },
         {
