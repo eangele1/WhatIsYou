@@ -24,8 +24,8 @@
     },
     {
       "id": "5",
-      "title": "Which Avenger are you?",
-      "releaseYear": "2014"
+      "availability": true,
+      "title": "Which Avenger are you?"
     },
     {
       "id": "6",
@@ -579,6 +579,138 @@
           "lower_bound": 270,
           "upper_bound": 280,
           "message": "Nike Kobe AD Exodus"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question_count": 7,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "Pick your favorite car brand!",
+          "A": "Ferrari",
+          "A_points": 40,
+          "B": "Porsche",
+          "B_points": 30,
+          "C": "Cadillac",
+          "C_points": 10,
+          "D": "Aston Martin",
+          "D_points": 20
+        },
+        {
+          "question_number": 2,
+          "question": "Which sport do you like most?",
+          "A": "BasketBall",
+          "A_points": 10,
+          "B": "Tennis",
+          "B_points": 30,
+          "C": "F1 or Moto GP",
+          "C_points": 40,
+          "D": "Soccer",
+          "D_points": 20
+        },
+        {
+          "question_number": 3,
+          "question": "What is your greatest strength?",
+          "A": "I\\'m Smart",
+          "A_points": 10,
+          "B": "I\\'m Strong",
+          "B_points": 20,
+          "C": "I\\'m Fast",
+          "C_points": 40,
+          "D": "I\\'m Rich",
+          "D_points": 30
+        },
+        {
+          "question_number": 4,
+          "question": "Pick your color!",
+          "A": "Black and White",
+          "A_points": 40,
+          "B": "Yellow and Red",
+          "B_points": 20,
+          "C": "Blue and Green",
+          "C_points": 10,
+          "D": "Gold and Silver",
+          "D_points": 30
+        },
+        {
+          "question_number": 5,
+          "question": "How old are you?",
+          "A": "0-18",
+          "A_points": 20,
+          "B": "18-36",
+          "B_points": 40,
+          "C": "36-54",
+          "C_points": 10,
+          "D": "54+",
+          "D_points": 30
+        },
+        {
+          "question_number": 6,
+          "question": "If you could time travel, where would you go?",
+          "A": "Ancient Rome",
+          "A_points": 20,
+          "B": "Ancient Greece",
+          "B_points": 40,
+          "C": "Ancient Egypt",
+          "C_points": 30,
+          "D": "Year 3125",
+          "D_points": 10
+        },
+        {
+          "question_number": 7,
+          "question": "Which word describes you?",
+          "A": "Loyal",
+          "A_points": 20,
+          "B": "Brave",
+          "B_points": 40,
+          "C": "Funny",
+          "C_points": 30,
+          "D": "Crazy",
+          "D_points": 10
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "message": "Loki"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 110,
+          "message": "Black Widow"
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 140,
+          "message": "Thor"
+        },
+        {
+          "lower_bound": 150,
+          "upper_bound": 170,
+          "message": "Iron Man"
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 210,
+          "message": "Captain America"
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 240,
+          "message": "Hulk"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 260,
+          "message": "Hawkeye"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 280,
+          "message": "Nick Fury"
         }
       ]
     }
