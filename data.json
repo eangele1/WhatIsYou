@@ -34,8 +34,8 @@
     },
     {
       "id": "7",
-      "title": "Which pool gadget you must have?",
-      "releaseYear": "2014"
+      "availability": true,
+      "title": "Which is your Football (Soccer) Club?"
     },
     {
       "id": "8",
@@ -859,6 +859,181 @@
           "upper_bound": 350,
           "message": "Pennywise",
           "sub_message": "from the movie: It"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question_count": 7,
+      "choice_count": 6,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "What is your favorite soccer move?",
+          "A": "Ronaldo Chop",
+          "A_points": 60,
+          "B": "Elastico",
+          "B_points": 20,
+          "C": "Rabona",
+          "C_points": 10,
+          "D": "Cruyff Turn",
+          "D_points": 30,
+          "E": "Garrincha Turn",
+          "E_points": 50,
+          "F": "Panenka",
+          "F_points": 40
+        },
+        {
+          "question_number": 2,
+          "question": "Which is the best league in the world?",
+          "A": "Bundesliga, Germany",
+          "A_points": 30,
+          "B": "Primeira L, Portugal",
+          "B_points": 20,
+          "C": "Serie A, Italy",
+          "C_points": 40,
+          "D": "MLS, United States",
+          "D_points": 10,
+          "E": "Premiere L, England",
+          "E_points": 50,
+          "F": "La Liga, Spain",
+          "F_points": 60
+        },
+        {
+          "question_number": 3,
+          "question": "Which international team do you support?",
+          "A": "France",
+          "A_points": 50,
+          "B": "Spain",
+          "B_points": 30,
+          "C": "Argentina",
+          "C_points": 40,
+          "D": "England",
+          "D_points": 20,
+          "E": "Brazil",
+          "E_points": 60,
+          "F": "Germany",
+          "F_points": 10
+        },
+        {
+          "question_number": 4,
+          "question": "Who is your favorite manager in Europe?",
+          "A": "Antonio Conte",
+          "A_points": 20,
+          "B": "Diego Simeone",
+          "B_points": 60,
+          "C": "José Mourinho",
+          "C_points": 10,
+          "D": "Pep Guardiola",
+          "D_points": 40,
+          "E": "Zinedine Zidane",
+          "E_points": 50,
+          "F": "Massimiliano Allegri",
+          "F_points": 30
+        },
+        {
+          "question_number": 5,
+          "question": "Which goalkeeper are you most like?",
+          "A": "Thibaut Courtois",
+          "A_points": 30,
+          "B": "Marc-André Ter Stegen",
+          "B_points": 10,
+          "C": "Manuel Neuer",
+          "C_points": 40,
+          "D": "Keylor Navas",
+          "D_points": 20,
+          "E": "Jan Oblak",
+          "E_points": 50,
+          "F": "David de Gea",
+          "F_points": 60
+        },
+        {
+          "question_number": 6,
+          "question": "What's your favorite formation?",
+          "A": "3-4-3",
+          "A_points": 40,
+          "B": "4-2-3-1",
+          "B_points": 10,
+          "C": "3-2-2-3",
+          "C_points": 60,
+          "D": "4-4-2",
+          "D_points": 50,
+          "E": "4-3-3",
+          "E_points": 20,
+          "F": "4-2-4",
+          "F_points": 30
+        },
+        {
+          "question_number": 7,
+          "question": "What are your favorite football cleats?",
+          "A": "Black and Silver",
+          "A_points": 30,
+          "B": "Black and Orange",
+          "B_points": 20,
+          "C": "Orange and Silver",
+          "C_points": 10,
+          "D": "Silver and Red",
+          "D_points": 50,
+          "E": "Black and Lime",
+          "E_points": 40,
+          "F": "Red and Black",
+          "F_points": 60
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 100,
+          "message": "Arsenal FC",
+          "sub_message": "Stadium Name: The Emirates Stadium"
+        },
+        {
+          "lower_bound": 110,
+          "upper_bound": 150,
+          "message": "Manchester City FC",
+          "sub_message": "Stadium Name: Etihad Stadium"
+        },
+        {
+          "lower_bound": 160,
+          "upper_bound": 180,
+          "message": "Liverpool FC",
+          "sub_message": "Stadium Name: Anfield Stadium"
+        },
+        {
+          "lower_bound": 190,
+          "upper_bound": 220,
+          "message": "Juventus FC",
+          "sub_message": "Stadium Name: Allianz Stadium"
+        },
+        {
+          "lower_bound": 230,
+          "upper_bound": 260,
+          "message": "Manchester United FC",
+          "sub_message": "Old Trafford"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 300,
+          "message": "Paris-Saint German FC",
+          "sub_message": "Stadium Name: Parc des Princes"
+        },
+        {
+          "lower_bound": 310,
+          "upper_bound": 340,
+          "message": "FC Bayern München",
+          "sub_message": "Stadium Name: Allianz Arena"
+        },
+        {
+          "lower_bound": 350,
+          "upper_bound": 380,
+          "message": "FC Barcelona",
+          "sub_message": "Stadium Name: Camp Nou"
+        },
+        {
+          "lower_bound": 390,
+          "upper_bound": 420,
+          "message": "Real Madrid CF",
+          "sub_message": "Stadium Name: Santiago Bernabeu"
         }
       ]
     }
