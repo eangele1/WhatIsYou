@@ -1009,7 +1009,7 @@
           "lower_bound": 230,
           "upper_bound": 260,
           "message": "Manchester United FC",
-          "sub_message": "Old Trafford"
+          "sub_message": "Stadium Name: Old Trafford"
         },
         {
           "lower_bound": 270,
