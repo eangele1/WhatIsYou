@@ -40,7 +40,7 @@
     {
       "id": "8",
       "title": "Which emoji are you?",
-      "releaseYear": "2014"
+      "availability": true
     },
     {
       "id": "9",
@@ -1034,6 +1034,139 @@
           "upper_bound": 420,
           "message": "Real Madrid CF",
           "sub_message": "Stadium Name: Santiago Bernabeu"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question_count": 7,
+      "choice_count": 4,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "Describe yourself in traffic!",
+          "A": "Seething",
+          "A_points": 30,
+          "B": "Crying",
+          "B_points": 10,
+          "C": "Singing like an idiot",
+          "C_points": 40,
+          "D": "Teetering on the brink",
+          "D_points": 20
+        },
+        {
+          "question_number": 2,
+          "question": "What social media do you use most?",
+          "A": "Facebook",
+          "A_points": 10,
+          "B": "YouTube",
+          "B_points": 30,
+          "C": "Instagram",
+          "C_points": 40,
+          "D": "Pinterest",
+          "D_points": 20
+        },
+        {
+          "question_number": 3,
+          "question": "Lion VS You, what would you do?",
+          "A": "Run away",
+          "A_points": 10,
+          "B": "Scream and cry",
+          "B_points": 20,
+          "C": "Attack!",
+          "C_points": 40,
+          "D": "Stay still and quiet",
+          "D_points": 30
+        },
+        {
+          "question_number": 4,
+          "question": "You found a lost wallet, what would you do?",
+          "A": "Take it to police",
+          "A_points": 30,
+          "B": "Check for ID and return it",
+          "B_points": 20,
+          "C": "Finders Keepers",
+          "C_points": 40,
+          "D": "Take money and return ID",
+          "D_points": 10
+        },
+        {
+          "question_number": 5,
+          "question": "Pick your favorite drink!",
+          "A": "Wine",
+          "A_points": 40,
+          "B": "Beer",
+          "B_points": 20,
+          "C": "Soda",
+          "C_points": 30,
+          "D": "Water",
+          "D_points": 10
+        },
+        {
+          "question_number": 6,
+          "question": "How do you see yourself in ten years?",
+          "A": "Healthy",
+          "A_points": 10,
+          "B": "Rich",
+          "B_points": 20,
+          "C": "Happy",
+          "C_points": 30,
+          "D": "Famous",
+          "D_points": 40
+        },
+        {
+          "question_number": 7,
+          "question": "What is your dream job?",
+          "A": "Teacher",
+          "A_points": 10,
+          "B": "Astronaut",
+          "B_points": 20,
+          "C": "Doctor",
+          "C_points": 30,
+          "D": "Pro Surfer",
+          "D_points": 40
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "message": "Star-Struck"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 110,
+          "message": "Face with Raised Eyebrow"
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 140,
+          "message": "Exploding Head"
+        },
+        {
+          "lower_bound": 150,
+          "upper_bound": 170,
+          "message": "Zany Face"
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 210,
+          "message": "Face with Symbols on Mouth"
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 240,
+          "message": "Face Vomiting"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 260,
+          "message": "Face with Monocle"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 280,
+          "message": "Shushing Face"
         }
       ]
     }
