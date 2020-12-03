@@ -769,15 +769,15 @@
         {
           "question_number": 4,
           "question": "Which of these dolls is the creepiest?",
-          "A": "Doll with no right eye and bloody socket + stitches",
+          "A": "No right eye + bloody eyes + stitches",
           "A_points": 20,
-          "B": "Doll with bloody eyes",
+          "B": "Bloody eyes",
           "B_points": 30,
-          "C": "Doll with no left eye",
+          "C": "No left eye",
           "C_points": 40,
-          "D": "Doll with severed right eye",
+          "D": "Severed right eye",
           "D_points": 50,
-          "E": "Doll with stitches and bloody mouth",
+          "E": "Stitches + bloody mouth",
           "E_points": 10
         },
         {
