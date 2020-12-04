@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.whatisyou"
+4    android:versionCode="1"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.android.gms:play-services-gcm:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d0cb3bc7fbe308f19da34c6bef6c6a46/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:23:5-82
+14-->[com.google.android.gms:play-services-gcm:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d0cb3bc7fbe308f19da34c6bef6c6a46/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:23:22-79
+15
+16    <application
+16-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:6:5-32:19
+17        android:name="com.whatisyou.MainApplication"
+17-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:7:7-38
+18        android:allowBackup="false"
+18-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:11:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:9:7-41
+21        android:label="@string/app_name"
+21-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:8:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:10:7-52
+23        android:theme="@style/AppTheme" >
+23-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:12:7-38
+24        <activity
+24-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:13:7-21:18
+25            android:name="com.whatisyou.SplashActivity"
+25-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:14:9-39
+26            android:label="@string/app_name"
+26-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:16:9-41
+27            android:theme="@style/SplashTheme" >
+27-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:15:9-43
+28            <intent-filter>
+28-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:17:9-20:25
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:18:11-63
+29-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:18:19-60
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:19:11-71
+31-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:19:21-68
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:23:7-30:18
+35            android:name="com.whatisyou.MainActivity"
+35-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:24:9-37
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+36-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:26:9-86
+37            android:exported="true"
+37-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:29:9-32
+38            android:label="@string/app_name"
+38-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:25:9-41
+39            android:launchMode="singleTask"
+39-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:27:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:28:9-51
+41        </activity>
+42        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+42-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:31:7-84
+42-->/Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:31:17-81
+43        <activity
+43-->[com.google.android.gms:play-services-base:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/b4d78d6d0e6b2d8c0a84001a74487ca1/jetified-play-services-base-12.0.1/AndroidManifest.xml:23:9-26:75
+44            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+44-->[com.google.android.gms:play-services-base:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/b4d78d6d0e6b2d8c0a84001a74487ca1/jetified-play-services-base-12.0.1/AndroidManifest.xml:24:13-79
+45            android:exported="false"
+45-->[com.google.android.gms:play-services-base:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/b4d78d6d0e6b2d8c0a84001a74487ca1/jetified-play-services-base-12.0.1/AndroidManifest.xml:25:13-37
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.android.gms:play-services-base:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/b4d78d6d0e6b2d8c0a84001a74487ca1/jetified-play-services-base-12.0.1/AndroidManifest.xml:26:13-72
+47
+48        <meta-data
+48-->[com.google.android.gms:play-services-basement:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/dae9628b058203baf16f2f65a58464b4/jetified-play-services-basement-12.0.1/AndroidManifest.xml:23:9-25:69
+49            android:name="com.google.android.gms.version"
+49-->[com.google.android.gms:play-services-basement:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/dae9628b058203baf16f2f65a58464b4/jetified-play-services-basement-12.0.1/AndroidManifest.xml:24:13-58
+50            android:value="@integer/google_play_services_version" />
+50-->[com.google.android.gms:play-services-basement:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/dae9628b058203baf16f2f65a58464b4/jetified-play-services-basement-12.0.1/AndroidManifest.xml:25:13-66
+51    </application>
+52
+53</manifest>
