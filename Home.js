@@ -26,7 +26,8 @@ export default class Home extends React.PureComponent {
     this.state = {
       data: [],
       nowLoading: true,
-      firstLoad: false
+      firstLoad: false,
+      date_updated: ""
     };
   }
 
@@ -42,7 +43,7 @@ export default class Home extends React.PureComponent {
       fetch(global.QUIZ_DATA_URL)
       .then((response) => response.json())
       .then((json) => {
-        this.setState({ data: json.quizzes });
+        this.setState({ data: json.quizzes, date_updated: json.date_updated });
       })
       .catch((error) => Alert.alert(error))
       .finally(() => {
@@ -86,7 +87,7 @@ export default class Home extends React.PureComponent {
   }
 
   render() {
-    const { data, nowLoading } = this.state;
+    const { data, nowLoading, date_updated } = this.state;
     return (
       <Fragment>
         {nowLoading ?
@@ -100,7 +101,7 @@ export default class Home extends React.PureComponent {
           <Image source={require('./assets/refresh.png')} style={styles.buttonImageIconStyle} />
         </TouchableOpacity>
         <Text style={{ fontFamily: 'serif', fontWeight: "bold", fontSize: 35, textAlign: "center" }}>What Is You?</Text>
-        <Text style={{ textAlign: "center", fontSize: 15 }}>(Updated as of: {data.date_updated})</Text>
+        <Text style={{ textAlign: "center", fontSize: 15 }}>(Updated as of: {date_updated})</Text>
         <Text style={{ textAlign: "right", fontSize: 14, position: "absolute", top: "7.5%", bottom: 0, left: 0, right: "10%" }}>v1.1.1</Text>
         <FlatList
           data={data}
