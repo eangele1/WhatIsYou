@@ -1,6 +1,6 @@
 {
   "api_title": "What Is You? JSON Data File",
-  "date_updated": "12/04/2020 10:59PM PST",
+  "date_updated": "12/05/2020 10:03AM PST",
   "description": "My app fetched this from a remote endpoint!",
   "quizzes": [
     {
@@ -61,6 +61,11 @@
     {
       "id": "12",
       "title": "How healthy is your lifestyle?",
+      "availability": true
+    },
+    {
+      "id": "13",
+      "title": "Which McDonald's Mascot Are You?",
       "availability": true
     }
   ],
@@ -1694,6 +1699,123 @@
           "upper_bound": 320,
           "message": "You should be proud of yourself!",
           "sub_message": "You are in tip-top shape!!!"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question_count": 7,
+      "choice_count": 4,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "Pick your favorite burger from McDonald's!",
+          "A": "McCountry",
+          "A_points": 30,
+          "B": "Big Mac",
+          "B_points": 40,
+          "C": "McChicken",
+          "C_points": 20,
+          "D": "Bacon Cheeseburger",
+          "D_points": 10
+        },
+        {
+          "question_number": 2,
+          "question": "Which is your favorite drink from McDonald's?",
+          "A": "Fanta",
+          "A_points": 30,
+          "B": "Coca-Cola",
+          "B_points": 40,
+          "C": "Dr. Pepper",
+          "C_points": 20,
+          "D": "Sprite",
+          "D_points": 10
+        },
+        {
+          "question_number": 3,
+          "question": "Which is your favorite McDonald's sauce?",
+          "A": "Tartar Sauce",
+          "A_points": 30,
+          "B": "Mustard",
+          "B_points": 20,
+          "C": "Ketchup",
+          "C_points": 40,
+          "D": "Mayonnaise",
+          "D_points": 10
+        },
+        {
+          "question_number": 4,
+          "question": "Pick your favorite McDonald's breakfast!",
+          "A": "Toast Bacon and Cheese",
+          "A_points": 40,
+          "B": "McMuffin Ham and Egg",
+          "B_points": 30,
+          "C": "McMuffin Egg",
+          "C_points": 10,
+          "D": "McMuffin Fresh Chicken",
+          "D_points": 20
+        },
+        {
+          "question_number": 5,
+          "question": "Which is your favorite McDonald's coffee?",
+          "A": "Frappe Caramel",
+          "A_points": 10,
+          "B": "McCafe",
+          "B_points": 40,
+          "C": "Hot Chocolate",
+          "C_points": 20,
+          "D": "Cappuccino",
+          "D_points": 30
+        },
+        {
+          "question_number": 6,
+          "question": "Which is your favorite McDonald's dessert?",
+          "A": "Shake",
+          "A_points": 30,
+          "B": "McSundae",
+          "B_points": 10,
+          "C": "Apple Pie",
+          "C_points": 40,
+          "D": "McFlurry",
+          "D_points": 20
+        },
+        {
+          "question_number": 7,
+          "question": "If you were to choose one of the items for life, which would it be?",
+          "A": "French Fries",
+          "A_points": 40,
+          "B": "Hamburger",
+          "B_points": 20,
+          "C": "McWrap",
+          "C_points": 10,
+          "D": "Cheeseburger",
+          "D_points": 30
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 110,
+          "message": "Grimace",
+          "sub_message": "You have a slow-witted demeanor. You are a happy fellow with a big heart and lots of love to go around, with well-meaning and selfless intentions."
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 170,
+          "message": "Hamburglar",
+          "sub_message": "When you love something or someone, the whole world knows that you do. You are fun to be with around people and you love to play tricks on them too."
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 210,
+          "message": "Birdie the Early Bird",
+          "sub_message": "You are probably the definition of clumsy but you know how to have a great time regardless of the circumstance. You have an unmistakable determination to make the best out of life."
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 280,
+          "message": "Ronald McDonald",
+          "sub_message": "You make friends quite easy and always want to stay in contact with them as soon as possible. You value family over everything. You are loyal and faithful to a fault."
         }
       ]
     }
