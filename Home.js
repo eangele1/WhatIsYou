@@ -102,7 +102,7 @@ export default class Home extends React.PureComponent {
         </TouchableOpacity>
         <Text style={{ fontFamily: 'serif', fontWeight: "bold", fontSize: 35, textAlign: "center" }}>What Is You?</Text>
         <Text style={{ textAlign: "center", fontSize: 15 }}>(Updated as of: {date_updated})</Text>
-        <Text style={{ textAlign: "right", fontSize: 14, position: "absolute", top: "7.5%", bottom: 0, left: 0, right: "10%" }}>v1.1.1</Text>
+        <Text style={{ textAlign: "right", fontSize: 14, position: "absolute", top: "7.5%", bottom: 0, left: 0, right: "10%" }}>v1.1.2</Text>
         <FlatList
           data={data}
           renderItem={({ item }) => (

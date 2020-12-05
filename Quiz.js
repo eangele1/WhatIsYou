@@ -220,10 +220,9 @@ export default class Quiz extends React.PureComponent {
               </View>
             ) : (
               <View style={{ paddingBottom: this.state.navbarHeight }}>
-                <Text style={[{ paddingLeft: 30, paddingRight: 30, fontSize: 60, textAlign: "center", fontWeight: "bold" }, this.state.isPortrait ? {paddingTop: 50} : {paddingTop: 15}]}>Results</Text>
-                <Text style={[{ fontFamily: 'serif', paddingTop: 30, paddingLeft: 30, paddingRight: 30, fontSize: 35, textAlign: "center", fontWeight: "bold" }, this.state.isPortrait ? {paddingTop: 30} : {paddingTop: 0}]}>{message}</Text>
-                { sub_message ? <Text style={{ paddingTop: 10, paddingLeft: 30, paddingRight: 30, fontSize: 25, textAlign: "center" }}>{sub_message}</Text> : <Text style={{ paddingTop: 10, paddingLeft: 30, paddingRight: 30, fontSize: 25, textAlign: "center" }}>is your result!</Text> }
-                <Text style={[{ paddingLeft: 30, paddingRight: 30, fontSize: 25, textAlign: "center", fontWeight: "bold" }, this.state.isPortrait ? {paddingTop: 30} : {paddingTop: 15}]}>Your score: {total}</Text>
+                <Text style={[{ fontFamily: 'serif', paddingTop: 30, paddingLeft: 30, paddingRight: 30, fontSize: 35, textAlign: "center", fontWeight: "bold" }, this.state.isPortrait ? {paddingTop: 30} : {paddingTop: 15}]}>{message}</Text>
+                { sub_message ? <Text style={{ paddingTop: 5, paddingLeft: 30, paddingRight: 30, fontSize: 25, textAlign: "center" }}>{sub_message}</Text> : <Text style={{ paddingTop: 5, paddingLeft: 30, paddingRight: 30, fontSize: 25, textAlign: "center" }}>is your result!</Text> }
+                <Text style={[{ paddingLeft: 30, paddingRight: 30, fontSize: 25, textAlign: "center", fontWeight: "bold" }, this.state.isPortrait ? {paddingTop: 30} : {paddingTop: 5}]}>Your score: {total}</Text>
                 <View style={[styles.retakeButton, this.state.isPortrait? {paddingTop: this.state.windowHeight * 0.775} : {paddingTop: this.state.windowHeight * 0.65}]}>
                   <RetakeButton onPress={this.reset} />
                 </View>
