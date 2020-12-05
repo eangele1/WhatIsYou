@@ -45,7 +45,7 @@
     {
       "id": "9",
       "title": "Which weather are you?",
-      "releaseYear": "2014"
+      "availability": true
     },
     {
       "id": "10",
@@ -1167,6 +1167,129 @@
           "lower_bound": 270,
           "upper_bound": 280,
           "message": "Shushing Face"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question_count": 7,
+      "choice_count": 4,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "What is your favorite season?",
+          "A": "Winter",
+          "A_points": 10,
+          "B": "Autumn",
+          "B_points": 20,
+          "C": "Spring",
+          "C_points": 30,
+          "D": "Summer",
+          "D_points": 40
+        },
+        {
+          "question_number": 2,
+          "question": "Which outdoor activity appeals to you the most?",
+          "A": "Swimming",
+          "A_points": 40,
+          "B": "Bicycling",
+          "B_points": 20,
+          "C": "Hiking",
+          "C_points": 30,
+          "D": "Skiing",
+          "D_points": 10
+        },
+        {
+          "question_number": 3,
+          "question": "What is your favorite type of sweet?",
+          "A": "Fudge",
+          "A_points": 30,
+          "B": "Ice Cream",
+          "B_points": 40,
+          "C": "Apple Pie",
+          "C_points": 20,
+          "D": "Jell-o",
+          "D_points": 10
+        },
+        {
+          "question_number": 4,
+          "question": "What is your favorite color?",
+          "A": "Yellow",
+          "A_points": 40,
+          "B": "Blue",
+          "B_points": 30,
+          "C": "Green",
+          "C_points": 20,
+          "D": "White",
+          "D_points": 10
+        },
+        {
+          "question_number": 5,
+          "question": "What do you prefer to drink?",
+          "A": "Coffee",
+          "A_points": 30,
+          "B": "Lemonade",
+          "B_points": 40,
+          "C": "Tea",
+          "C_points": 10,
+          "D": "Beer",
+          "D_points": 20
+        },
+        {
+          "question_number": 6,
+          "question": "Which element do you feel most connected to?",
+          "A": "Earth",
+          "A_points": 10,
+          "B": "Water",
+          "B_points": 30,
+          "C": "Air",
+          "C_points": 20,
+          "D": "Fire",
+          "D_points": 40
+        },
+        {
+          "question_number": 7,
+          "question": "Which of these is your favorite planet?",
+          "A": "Earth",
+          "A_points": 20,
+          "B": "Neptune",
+          "B_points": 10,
+          "C": "Venus",
+          "C_points": 40,
+          "D": "Mars",
+          "D_points": 30
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "message": "Rainy Weather"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 120,
+          "message": "Snowy Weather"
+        },
+        {
+          "lower_bound": 130,
+          "upper_bound": 160,
+          "message": "Stormy Weather"
+        },
+        {
+          "lower_bound": 170,
+          "upper_bound": 200,
+          "message": "Cloudy Weather"
+        },
+        {
+          "lower_bound": 210,
+          "upper_bound": 240,
+          "message": "Windy Weather"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 280,
+          "message": "Sunny Weather"
         }
       ]
     }
