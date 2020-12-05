@@ -55,7 +55,7 @@
     {
       "id": "11",
       "title": "Which nickname is best for you or your pet?",
-      "releaseYear": "2014"
+      "availability": true
     },
     {
       "id": "12",
@@ -1423,6 +1423,147 @@
           "lower_bound": 270,
           "upper_bound": 280,
           "message": "Hotel-Style Mansion"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question_count": 7,
+      "choice_count": 4,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "What do you like most about yourself?",
+          "A": "My intelligence",
+          "A_points": 20,
+          "B": "My looks",
+          "B_points": 30,
+          "C": "My sensitive side",
+          "C_points": 40,
+          "D": "My sense of humor",
+          "D_points": 10
+        },
+        {
+          "question_number": 2,
+          "question": "Are you polite to strangers?",
+          "A": "Sometimes",
+          "A_points": 10,
+          "B": "Yes, I am",
+          "B_points": 20,
+          "C": "Not at all",
+          "C_points": 40,
+          "D": "I don't talk to strangers",
+          "D_points": 30
+        },
+        {
+          "question_number": 3,
+          "question": "What does your heart seek?",
+          "A": "Adventure",
+          "A_points": 40,
+          "B": "Solitude",
+          "B_points": 20,
+          "C": "Compassion",
+          "C_points": 10,
+          "D": "Love",
+          "D_points": 30
+        },
+        {
+          "question_number": 4,
+          "question": "What is your favorite movie genre?",
+          "A": "Action",
+          "A_points": 30,
+          "B": "Drama",
+          "B_points": 20,
+          "C": "Comedy",
+          "C_points": 10,
+          "D": "Sci-Fi",
+          "D_points": 40
+        },
+        {
+          "question_number": 5,
+          "question": "Pick a metal!",
+          "A": "Gold",
+          "A_points": 20,
+          "B": "Iron",
+          "B_points": 30,
+          "C": "Copper",
+          "C_points": 10,
+          "D": "Mercury",
+          "D_points": 40
+        },
+        {
+          "question_number": 6,
+          "question": "Choose your superpower!",
+          "A": "Sonic Flight",
+          "A_points": 40,
+          "B": "Genius Intellect",
+          "B_points": 30,
+          "C": "Chaos Magic",
+          "C_points": 10,
+          "D": "Shrinking",
+          "D_points": 20
+        },
+        {
+          "question_number": 7,
+          "question": "How often are you at home?",
+          "A": "Always",
+          "A_points": 40,
+          "B": "Sometimes",
+          "B_points": 30,
+          "C": "Rarely",
+          "C_points": 10,
+          "D": "Never",
+          "D_points": 20
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Snake Eyes, Queen Bee, Ace, Bella"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 110,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Hyper, Alley Cat, Rufus, Cora"
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 140,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Sugar man, Cream, Kobe, Eva"
+        },
+        {
+          "lower_bound": 150,
+          "upper_bound": 170,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Tan Stallion, Indigo Red, Simba, Fancy"
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 210,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Cujo, Vixen, Sparky, Aspen"
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 240,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Nacho, Kabuki, Ollie, Ebony"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 260,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Tough Nut, Charms, Biggie, Buffy"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 280,
+          "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
+          "message": "Renegade, Missy, Pat, Meowy"
         }
       ]
     }
