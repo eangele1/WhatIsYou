@@ -50,7 +50,7 @@
     {
       "id": "10",
       "title": "What dream house suits you best?",
-      "releaseYear": "2014"
+      "availability": true
     },
     {
       "id": "11",
@@ -1290,6 +1290,139 @@
           "lower_bound": 250,
           "upper_bound": 280,
           "message": "Sunny Weather"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question_count": 7,
+      "choice_count": 4,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "How do you like to travel?",
+          "A": "By Car",
+          "A_points": 40,
+          "B": "By Plane",
+          "B_points": 10,
+          "C": "By Ship",
+          "C_points": 20,
+          "D": "By Foot",
+          "D_points": 30
+        },
+        {
+          "question_number": 2,
+          "question": "What is your favorite piece of jewelry?",
+          "A": "Ring",
+          "A_points": 20,
+          "B": "Necklace",
+          "B_points": 10,
+          "C": "Earrings",
+          "C_points": 40,
+          "D": "I don't wear it",
+          "D_points": 30
+        },
+        {
+          "question_number": 3,
+          "question": "What type of music do you like?",
+          "A": "Pop",
+          "A_points": 20,
+          "B": "Rock",
+          "B_points": 30,
+          "C": "Jazz",
+          "C_points": 40,
+          "D": "RnB",
+          "D_points": 10
+        },
+        {
+          "question_number": 4,
+          "question": "How many kids do you want?",
+          "A": "1-2",
+          "A_points": 30,
+          "B": "3-4",
+          "B_points": 20,
+          "C": "5 or more",
+          "C_points": 40,
+          "D": "None",
+          "D_points": 10
+        },
+        {
+          "question_number": 5,
+          "question": "Pick a color you prefer!",
+          "A": "Red",
+          "A_points": 10,
+          "B": "Blue",
+          "B_points": 20,
+          "C": "Green",
+          "C_points": 40,
+          "D": "Pink",
+          "D_points": 30
+        },
+        {
+          "question_number": 6,
+          "question": "Do you like pets?",
+          "A": "Yes!",
+          "A_points": 40,
+          "B": "Sure",
+          "B_points": 20,
+          "C": "I guess",
+          "C_points": 10,
+          "D": "No",
+          "D_points": 30
+        },
+        {
+          "question_number": 7,
+          "question": "Pick your \"Lottery Ticket\".",
+          "A": "1 million dollars",
+          "A_points": 40,
+          "B": "A small island",
+          "B_points": 10,
+          "C": "I don't need one",
+          "C_points": 20,
+          "D": "Free plane tickets for life",
+          "D_points": 30
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 70,
+          "upper_bound": 80,
+          "message": "Log Cabin"
+        },
+        {
+          "lower_bound": 90,
+          "upper_bound": 110,
+          "message": "Modern Outdoor House"
+        },
+        {
+          "lower_bound": 120,
+          "upper_bound": 140,
+          "message": "Elegant Mini-Mansion"
+        },
+        {
+          "lower_bound": 150,
+          "upper_bound": 170,
+          "message": "Elegant Mansion with Outdoor Pool"
+        },
+        {
+          "lower_bound": 180,
+          "upper_bound": 210,
+          "message": "Private Area over Water"
+        },
+        {
+          "lower_bound": 220,
+          "upper_bound": 240,
+          "message": "Sleek Modern with Very Large Pool"
+        },
+        {
+          "lower_bound": 250,
+          "upper_bound": 260,
+          "message": "Wedge-Shaped House in Plains"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 280,
+          "message": "Hotel-Style Mansion"
         }
       ]
     }
