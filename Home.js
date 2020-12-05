@@ -64,7 +64,7 @@ export default class Home extends React.PureComponent {
     fetch(global.QUIZ_DATA_URL)
       .then((response) => response.json())
       .then((json) => {
-        this.setState({ data: json.quizzes });
+        this.setState({ data: json.quizzes, date_updated: json.date_updated });
       })
       .catch((error) => Alert.alert(error))
       .finally(() => {
