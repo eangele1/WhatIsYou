@@ -12,7 +12,7 @@ import Quiz from './Quiz.js';
 const Stack = createStackNavigator();
 
 //stores data url into global constant variable
-global.QUIZ_DATA_URL = "https://eangele1.github.io/WhatIsYou/data.json";
+global.QUIZ_DATA_URL = "https://raw.githubusercontent.com/eangele1/WhatIsYou/main/data.json";
 
 function App() {
 

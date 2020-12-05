@@ -100,8 +100,8 @@ export default class Home extends React.PureComponent {
           <Image source={require('./assets/refresh.png')} style={styles.buttonImageIconStyle} />
         </TouchableOpacity>
         <Text style={{ fontFamily: 'serif', fontWeight: "bold", fontSize: 35, textAlign: "center" }}>What Is You?</Text>
-        <Text style={{ textAlign: "center", fontSize: 17 }}>(Select Your Quiz)</Text>
-        <Text style={{ textAlign: "right", fontSize: 14, position: "absolute", top: "7.5%", bottom: 0, left: 0, right: "10%" }}>v1.1</Text>
+        <Text style={{ textAlign: "center", fontSize: 15 }}>(Updated as of: {data.date_updated})</Text>
+        <Text style={{ textAlign: "right", fontSize: 14, position: "absolute", top: "7.5%", bottom: 0, left: 0, right: "10%" }}>v1.1.1</Text>
         <FlatList
           data={data}
           renderItem={({ item }) => (
