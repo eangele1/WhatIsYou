@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/halftbhd/Desktop/WhatIsYou/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ur/values-ur.xml",
+            "outputFile": "/Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "/Users/halftbhd/.gradle/caches/transforms-2/files-2.1/dae9628b058203baf16f2f65a58464b4/jetified-play-services-basement-12.0.1/res/values-ur/values.xml",

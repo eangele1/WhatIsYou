@@ -1,4 +1,7 @@
-#Wed Dec 02 14:21:05 PST 2020
+#Fri Dec 04 23:12:37 PST 2020
 base.0=/Users/halftbhd/Desktop/WhatIsYou/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex

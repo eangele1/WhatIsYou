@@ -1,17 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-MERGED from [:react-native-community_masked-view] /Users/halftbhd/Desktop/WhatIsYou/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-clear-cache] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-clear-cache/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-safe-area-context] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-splash-screen] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/83060dc7d22e282ca7f4b806bbe8ac53/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:react-native-community_masked-view] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-clear-cache] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-clear-cache/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-splash-screen] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/367daaf7650faaebd36c4f2e3663c2ad/jetified-react-native-0.63.3/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d0cb3bc7fbe308f19da34c6bef6c6a46/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:17:1-28:12
@@ -70,37 +70,37 @@ MERGED from [com.google.android.gms:play-services-iid-license:12.0.1] /Users/hal
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/533c8b64ddb525c9d5832fcdad0329d0/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d5793551ab5662ea45879dfe8178369b/play-services-tasks-license-12.0.1/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
 	package
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:2:3-26
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:2:3-26
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d0cb3bc7fbe308f19da34c6bef6c6a46/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d0cb3bc7fbe308f19da34c6bef6c6a46/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d84444396eff331b3a1f90eefe2c12f2/jetified-play-services-iid-12.0.1/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d84444396eff331b3a1f90eefe2c12f2/jetified-play-services-iid-12.0.1/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:6:5-32:19
-MERGED from [:react-native-splash-screen] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
-MERGED from [:react-native-splash-screen] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/83060dc7d22e282ca7f4b806bbe8ac53/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/83060dc7d22e282ca7f4b806bbe8ac53/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:6:5-32:19
+MERGED from [:react-native-splash-screen] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-splash-screen] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-12:19
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/367daaf7650faaebd36c4f2e3663c2ad/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/367daaf7650faaebd36c4f2e3663c2ad/jetified-react-native-0.63.3/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d0cb3bc7fbe308f19da34c6bef6c6a46/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:26:5-20
@@ -134,73 +134,73 @@ MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/h
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:8:7-39
 	android:roundIcon
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:10:7-52
 	android:icon
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:9:7-41
 	android:allowBackup
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:7:7-38
 activity#com.whatisyou.SplashActivity
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:13:7-21:18
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:13:7-21:18
 	android:label
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:16:9-41
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:16:9-41
 	android:theme
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:15:9-43
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:15:9-43
 	android:name
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:14:9-39
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:14:9-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:17:9-20:25
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:17:9-20:25
 action#android.intent.action.MAIN
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:18:11-63
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:18:11-63
 	android:name
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:18:19-60
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:18:19-60
 category#android.intent.category.LAUNCHER
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:19:11-71
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:19:11-71
 	android:name
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:19:21-68
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:19:21-68
 activity#com.whatisyou.MainActivity
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:23:7-30:18
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:23:7-30:18
 	android:label
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:25:9-41
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:25:9-41
 	android:launchMode
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:27:9-40
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:27:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:28:9-51
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:28:9-51
 	android:exported
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:29:9-32
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:29:9-32
 	android:configChanges
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:26:9-86
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:26:9-86
 	android:name
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:24:9-37
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:24:9-37
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:31:7-84
+ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:31:7-84
 	android:name
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml:31:17-81
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml:31:17-81
 uses-sdk
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-community_masked-view] /Users/halftbhd/Desktop/WhatIsYou/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /Users/halftbhd/Desktop/WhatIsYou/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-clear-cache] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-clear-cache/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-clear-cache] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-clear-cache/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-safe-area-context] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-screens] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-splash-screen] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-splash-screen] /Users/halftbhd/Desktop/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/83060dc7d22e282ca7f4b806bbe8ac53/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/83060dc7d22e282ca7f4b806bbe8ac53/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-community_masked-view] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-clear-cache] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-clear-cache/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-clear-cache] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-clear-cache/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-splash-screen] /Users/halftbhd/Documents/GitHub/WhatIsYou/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/367daaf7650faaebd36c4f2e3663c2ad/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.63.3] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/367daaf7650faaebd36c4f2e3663c2ad/jetified-react-native-0.63.3/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/863e0c3c6716935cd3657ad638fd992d/material-1.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/1cb9b9ea592aa2ea85233be252327dcf/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -317,16 +317,16 @@ MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/halftbhd/.gradle/cac
 MERGED from [com.facebook.soloader:annotation:0.8.2] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/3dcbfe15c31dc75e66a0a981bf1ad806/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d5793551ab5662ea45879dfe8178369b/play-services-tasks-license-12.0.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks-license:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d5793551ab5662ea45879dfe8178369b/play-services-tasks-license-12.0.1/AndroidManifest.xml:20:5-44
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/halftbhd/Desktop/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/halftbhd/Documents/GitHub/WhatIsYou/android/app/src/main/AndroidManifest.xml
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d0cb3bc7fbe308f19da34c6bef6c6a46/jetified-play-services-gcm-12.0.1/AndroidManifest.xml:23:5-82
 MERGED from [com.google.android.gms:play-services-iid:12.0.1] /Users/halftbhd/.gradle/caches/transforms-2/files-2.1/d84444396eff331b3a1f90eefe2c12f2/jetified-play-services-iid-12.0.1/AndroidManifest.xml:23:5-82
