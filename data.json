@@ -60,7 +60,7 @@
     {
       "id": "12",
       "title": "How healthy is your lifestyle?",
-      "releaseYear": "2014"
+      "availability": true
     }
   ],
   "question_data": [
@@ -1564,6 +1564,135 @@
           "upper_bound": 280,
           "sub_message": "Boy, Girl, Dog and Cat Nicknames.",
           "message": "Renegade, Missy, Pat, Meowy"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question_count": 8,
+      "choice_count": 4,
+      "questions_points": [
+        {
+          "question_number": 1,
+          "question": "How many times do you eat each day?",
+          "A": "Once a day",
+          "A_points": 10,
+          "B": "Twice a day",
+          "B_points": 20,
+          "C": "Thrice a day",
+          "C_points": 40,
+          "D": "It varies",
+          "D_points": 30
+        },
+        {
+          "question_number": 2,
+          "question": "How much exercise per week do you do?",
+          "A": "None",
+          "A_points": 10,
+          "B": "30 min",
+          "B_points": 20,
+          "C": "1 hour",
+          "C_points": 30,
+          "D": "2 hours or more",
+          "D_points": 40
+        },
+        {
+          "question_number": 3,
+          "question": "Pick your favorite breakfast!",
+          "A": "Croissant and Coffee",
+          "A_points": 20,
+          "B": "Fruits and Milk",
+          "B_points": 40,
+          "C": "Oatmeal",
+          "C_points": 30,
+          "D": "Breakfast Sandwich",
+          "D_points": 10
+        },
+        {
+          "question_number": 4,
+          "question": "How much sleep do you usually get?",
+          "A": "4-5 hours per day",
+          "A_points": 10,
+          "B": "6-7 hours per day",
+          "B_points": 40,
+          "C": "8-9 hours per day",
+          "C_points": 30,
+          "D": "10+ hours per day",
+          "D_points": 20
+        },
+        {
+          "question_number": 5,
+          "question": "Which of these do you drink most often?",
+          "A": "Beer",
+          "A_points": 20,
+          "B": "Coffee",
+          "B_points": 30,
+          "C": "Soda",
+          "C_points": 10,
+          "D": "Water",
+          "D_points": 40
+        },
+        {
+          "question_number": 6,
+          "question": "How often do you smoke?",
+          "A": "Never",
+          "A_points": 40,
+          "B": "1-5 times per day",
+          "B_points": 20,
+          "C": "6-10 times per day",
+          "C_points": 10,
+          "D": "10+ times per day",
+          "D_points": 30
+        },
+        {
+          "question_number": 7,
+          "question": "How often do you eat fish or shellfish?",
+          "A": "Never",
+          "A_points": 10,
+          "B": "Occasionally",
+          "B_points": 20,
+          "C": "Once a month",
+          "C_points": 30,
+          "D": "Once a week",
+          "D_points": 40
+        },
+        {
+          "question_number": 8,
+          "question": "How do you relieve stress?",
+          "A": "Sleep",
+          "A_points": 20,
+          "B": "Yoga",
+          "B_points": 30,
+          "C": "Drinking",
+          "C_points": 10,
+          "D": "Walking/Jogging",
+          "D_points": 40
+        }
+      ],
+      "results": [
+        {
+          "lower_bound": 80,
+          "upper_bound": 120,
+          "message": "This is really bad!",
+          "sub_message": "You need to make significant changes!"
+        },
+        {
+          "lower_bound": 130,
+          "upper_bound": 180,
+          "message": "You are not OK!",
+          "sub_message": "Try to change your health habits as soon as you can!"
+        },
+        {
+          "lower_bound": 190,
+          "upper_bound": 260,
+          "message": "You are quite OK!",
+          "sub_message": "Your score is not too bad, but you can improve!"
+        },
+        {
+          "lower_bound": 270,
+          "upper_bound": 320,
+          "message": "You should be proud of yourself!",
+          "sub_message": "You are in tip-top shape!!!"
         }
       ]
     }
